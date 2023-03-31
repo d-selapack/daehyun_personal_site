@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Personal Site</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Site</title>
+    <!-- styles for all pages -->
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <!-- styles for this page -->
+    <link rel="stylesheet" href="index.css" />
+ </head>
   <body>
     <header>
-      <h1>Welcome to My Personal Site</h1>
-      <nav>
-        <ul>
-          <li><a href="#landing-page">Home</a></li>
-          <li><a href="#about-page">About</a></li>
-          <li><a href="#portfolio-page">Portfolio</a></li>
-        </ul>
+      <nav class="myname">DAEHYUN SELAPACK
+      <nav class="links">
+        <a class="active" href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="portfolio.html">portfolio</a>
       </nav>
     </header>
-
     <main>
-      <!-- Add content here -->
+      <h1 class="mytitle">developer, photographer, leader.</h1>
+      <h2 class="quote">
+        “If you have a choice between being right and being kind, choose kind."
+        <br />
+        -Dr. Wayne W. Dyer.
+      </h2>
     </main>
 
-    <footer>&copy; [Your Name] 2023</footer>
-
-    <!-- Add JavaScript code here -->
-    <!-- You can use JavaScript to add interactivity to your site -->
+    <footer>
+      <a href="https://www.instagram.com/iamdaehyun/" target="_blank">
+        <img class="media-link" src="page_image/instagram.svg" alt />
+        <a href="https://www.linkedin.com/in/iamdaehyun/" target-="_blank">
+        <img class="media-link" src="page_image/LinkedIn.svg" alt />
+      </a>
+    </footer>
   </body>
 </html>
