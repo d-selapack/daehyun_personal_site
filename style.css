@@ -1,54 +1,76 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+html {
   font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #333333;
+  max-width: 1150px;
+  margin: 0 auto;
 }
 
 /* Header styles */
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+  background-color: #333333;
+  font-size: 30px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  box-shadow: 0 6px 8px -2px rgb(22, 81, 34);
 }
 
-header h1 {
-  margin: 0;
+/* nav styles */
+nav {
+  color: #eeeeee;
+  background-color: #333333;
+  text-align: center;
 }
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-}
-
 nav a {
-  color: #fff;
+  color: #eeeeee;
   text-decoration: none;
+  padding: 160px;
+}
+/* main styles */
+main {
+  text-align: center;
+  min-height: 100vh;
+  padding: 200px 24px 96px;
+  box-shadow: 0 0 10px -2px rgb(22, 81, 34);
+  color: #eeeeee;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* footer styles */
+footer {
+  box-sizing: border-box;
+  position: fixed;
+  height: 50px;
   padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
-nav a:hover {
-  background-color: #555;
+footer .media-link {
+  height: 32px;
 }
 
-/* Landing page styles */
-#landing-page {
-  background-color: #eee;
+footer a {
+  margin-right: 64px;
+  text-decoration: none;
 }
 
-/* About page styles */
-#about-page {
-  background-color: #fff;
+footer a:last-child {
+  margin-right: 0;
 }
 
-/* Portfolio page styles */
-#portfolio-page {
-  background-color: #eee;
-}
-
-.project {
-  border: solid #ccc;
-  padding: 20px;
+header,
+footer {
+  background: #f8f8f8;
 }
